@@ -5,7 +5,7 @@ import Nav from "../nav/Nav";
 import "./Header.css";
 function Header() {
   return (
-    <div className="header">
+    <div id="home">
       <header>
         <InfoSection />
         <ImageSection />

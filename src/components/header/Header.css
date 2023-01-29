@@ -1,15 +1,17 @@
-.header {
+#home {
   background-color: var(--primary-color);
   padding: 20px;
+  height: 100vh;
 }
 header {
   display: grid;
-  grid-template-columns: 40% 40% 20%;
+  grid-template-columns: 50% 40% 10%;
   background-color: var(--primary-color);
   color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
   border-radius: 20px;
   align-items: center;
-  width: 95%;
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
 }
