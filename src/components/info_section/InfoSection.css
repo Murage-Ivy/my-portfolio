@@ -16,6 +16,7 @@
 .top-level > h1 {
   font-size: 6em;
   position: absolute;
+  font-weight: 500;
   z-index: 1;
   top: 15%;
 }
@@ -37,17 +38,19 @@
 .info-section > p {
   font-size: 15px;
   font-weight: 400;
+  line-height: 1.5;
+  font-weight: 300;
 }
 .call-action {
   width: fit-content;
   height: fit-content;
   background-color: var(--tertiary-color);
-  padding: 5px 30px;
+  padding: 5px 40px;
   border: none;
   color: var(--secondary-color);
   border-radius: 10px;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .social-btns {

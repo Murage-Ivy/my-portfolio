@@ -1,9 +1,36 @@
-.image-section{
-
+.image-section {
+  width: 500px;
 }
 
 .image-section > img {
-    display: block;
-    max-width: 100%;
-    
+  display: block;
+  max-width: 100%;
+}
+
+.brief-intro {
+  padding: 15px;
+  background-color: var(--secondary-color);
+  
+}
+
+.brief-intro > p {
+  font-weight: 300;
+  line-height: 2;
+  color:var(--primary-color)
+}
+
+.action-btns {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-btns > button {
+  padding: 5px 30px;
+  border: none;
+  background-color: var(--tertiary-color);
+  color: var(--secondary-color);
+  border-radius: 10px;
+  font-size: 16px;
 }
