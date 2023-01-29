@@ -1,0 +1,9 @@
+.image-section{
+
+}
+
+.image-section > img {
+    display: block;
+    max-width: 100%;
+    
+}
