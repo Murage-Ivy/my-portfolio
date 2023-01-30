@@ -2,15 +2,13 @@
   padding: 20px;
   height: 100%;
   display: grid;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
 }
 .top-level {
   height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  line-height: 1;
 }
 
 .top-level > h1 {
@@ -34,6 +32,18 @@
 .top-level > h4 {
   font-size: 18px;
   font-weight: 300;
+
+  padding: 10px;
+  background-color: var(--tertiary-color);
+  border-radius: 10px;
+  box-shadow: 5px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    11.9px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    22.4px 12.6px 10px rgba(0, 0, 0, 0.035),
+    40px 22.6px 17.9px rgba(0, 0, 0, 0.042),
+    74.8px 42.2px 33.4px rgba(0, 0, 0, 0.05),
+    179px 101px 80px rgba(0, 0, 0, 0.07);
+  width: fit-content;
+  margin-top: 20px;
 }
 
 .info-section > p {
@@ -41,6 +51,7 @@
   font-weight: 400;
   line-height: 1.5;
   font-weight: 300;
+  height: fit-content;
 }
 .call-action {
   width: fit-content;

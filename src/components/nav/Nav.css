@@ -7,6 +7,15 @@
   display: flex;
   align-items: flex-end;
   flex-direction: column;
+  position: fixed;
+  top:0px;
+
+  right: 0;
+  background-color: var(--primary-color);
+  /* border-radius: 0 20px 20px 0; */
+  border-left:1px solid var(--secondary-color);
+
+ 
 }
 .nav > ul {
   height: 100%;
@@ -20,8 +29,14 @@
 .nav > ul > li > a {
   text-decoration: none;
   color: var(--secondary-color);
+  font-weight: 500;
 }
 
-.nav ul > li > a:hover{
-    color: var(--tertiary-color);
+.nav ul > li > a:hover {
+  color: var(--tertiary-color);
+}
+.nav ul > li > a:active {
+  background-color: var(--tertiary-color);
+  color: var(--secondary-color);
+  padding: 10px;
 }
