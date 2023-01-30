@@ -8,18 +8,17 @@
   align-items: flex-end;
   flex-direction: column;
   position: fixed;
-  top:0px;
-
+  top: 0px;
   right: 0;
   background-color: var(--primary-color);
   /* border-radius: 0 20px 20px 0; */
-  border-left:1px solid var(--secondary-color);
-
- 
+  border-left: 1px solid var(--secondary-color);
+  width: 150px;
 }
 .nav > ul {
   height: 100%;
   width: 100px;
+
   display: flex;
   align-items: center;
   flex-direction: column;

@@ -1,4 +1,22 @@
 #about {
+  padding: 15px;
   height: 100vh;
-  border:1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.image-1 {
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+
+}
+.about-me{
+    border:1px solid red;
+    height: 80%;
+}
+
+.about-me > p {
+    line-height: 2;
+    font-size: 15px;
+    font-weight: 300;
 }

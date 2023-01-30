@@ -19,6 +19,10 @@ body {
   -webkit-text-size-adjust: 100%; /* 2 */
   background-color: var(--secondary-color);
 }
-App {
+.App {
+  display: grid;
+  grid-template-columns: 90% 20%;
+}
+.main-container {
   display: block;
 }

@@ -9,7 +9,7 @@ function Header() {
       <header>
         <InfoSection />
         <ImageSection />
-        <Nav />
+     
       </header>
     </div>
   );
