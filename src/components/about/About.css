@@ -8,15 +8,166 @@
 .image-1 {
   border-radius: 50%;
   border: 2px solid var(--primary-color);
-
 }
-.about-me{
-    border:1px solid red;
-    height: 80%;
+.about-me {
+  height: 100%;
+  padding: 20px;
+  border: 1px solid var(--primary-color);
+  border-radius: 15px;
+}
+.about-me > h2 {
+  text-align: center;
+  position: relative;
+  line-height: 2;
+}
+.about-me > h2::after {
+  content: "";
+  background-color: var(--tertiary-color);
+  height: 3px;
+  width: 20%;
+  position: absolute;
+  top: 100%;
+  left: 40%;
 }
 
 .about-me > p {
-    line-height: 2;
-    font-size: 15px;
-    font-weight: 300;
+  line-height: 2;
+  word-spacing: 10px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.my-stacks {
+  width: 500px;
+  background-color: var(--primary-color);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.my-stacks > h3 {
+    color:var(--tertiary-color);
+}
+
+.my-stacks > ul > li {
+  list-style: none;
+  padding: 10px;
+  color: var(--secondary-color);
+}
+
+.bar {
+  background: #353b48;
+  height: 10px;
+  display: block;
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all cubic-bezier(0.25, 0.8, 25, 1);
+}
+
+.bar span {
+  height: 20px;
+  float: left;
+  background-image: linear-gradient(
+    to right top,
+    #101d42,
+    #512462,
+    #9b1767,
+    #d9124e,
+    #fb5012
+  );
+}
+
+.html {
+  width: 90%;
+  animation: html 3s;
+}
+.css {
+  width: 70%;
+  animation: css 3s;
+}
+.javascript {
+  width: 75%;
+  animation: javascript 3s;
+}
+.reactjs {
+  width: 80%;
+  animation: reactjs 3s;
+}
+.ruby {
+  width: 70%;
+  animation: ruby 3s;
+}
+.redux {
+  width: 70%;
+  animation: ruby 3s;
+}
+.ux {
+  width: 60%;
+  animation: ux 3s;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+
+  90% {
+    width: 90%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+
+  70% {
+    width: 70%;
+  }
+}
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+
+  75% {
+    width: 75%;
+  }
+}
+@keyframes reactjs {
+  0% {
+    width: 0%;
+  }
+
+  80% {
+    width: 80%;
+  }
+}
+@keyframes ruby {
+  0% {
+    width: 0%;
+  }
+
+  70% {
+    width: 70%;
+  }
+}
+@keyframes redux {
+  0% {
+    width: 0%;
+  }
+
+  70% {
+    width: 70%;
+  }
+}
+
+@keyframes ux {
+  0% {
+    width: 0%;
+  }
+
+  60% {
+    width: 60%;
+  }
 }
