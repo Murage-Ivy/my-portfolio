@@ -1,3 +1,9 @@
 #contacts {
   height: 100vh;
+  border: 2px solid red;
+}
+
+.form {
+  background-color: var(--primary-color);
+  width: 80%;
 }
