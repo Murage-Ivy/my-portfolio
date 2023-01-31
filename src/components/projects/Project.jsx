@@ -12,7 +12,10 @@ function Project() {
           <br />
           and enables you view different foods.
         </p>
-        <button>View Project</button>
+        <div className="primary-actions-btn">
+          <button>View Project</button>
+          <button>View Github</button>
+        </div>
       </div>
 
       <div className="project-card">
