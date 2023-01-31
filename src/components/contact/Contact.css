@@ -1,9 +1,83 @@
 #contacts {
   height: 100vh;
   border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#contacts > h3 {
+  text-align: center;
+  text-decoration: underline var(--tertiary-color) 2px;
+  padding: 15px;
 }
 
 .form {
   background-color: var(--primary-color);
   width: 80%;
+  padding: 20px;
+  height: 80%;
+  margin: 0 auto;
+  border-radius: 20px;
+  position: relative;
+  -webkit-box-shadow: 1px 9px 24px -12px rgba(8, 8, 111, 1);
+  -moz-box-shadow: 1px 9px 24px -12px rgba(8, 8, 111, 1);
+  box-shadow: 1px 9px 24px -12px rgba(8, 8, 111, 1);
+}
+.form > div {
+  position: relative;
+  left: 40%;
+  width: 60%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.form > div > textarea {
+  width: 100%;
+  height: 200px;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 5px 15px;
+  border-radius: 8px;
+}
+
+.form > div > input {
+  width: 300px;
+  padding: 5px 15px;
+  border-radius: 8px;
+  border: none;
+  color: var(--primary-color);
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.form > div > label {
+  color: var(--secondary-color);
+  font-size: 16px;
+}
+.form > img {
+  max-width: 300px;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  bottom: 300px;
+}
+
+.submit {
+  border-radius: 11px;
+  padding: 5px 40px;
+  width: fit-content;
+  border: 2px solid var(--tertiary-color);
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: transparent;
+  color: var(--secondary-color);
+  font-weight: 600;
+  font-size: 16px;
+  transition: 0.3s linear;
+}
+
+.submit:hover {
+  background-color: var(--tertiary-color);
 }
