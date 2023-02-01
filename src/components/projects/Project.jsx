@@ -17,8 +17,18 @@ function Project() {
             and enables you view different foods.
           </p>
           <div className="primary-actions-btn">
-            <button>View Project</button>
-            <button>View Github</button>
+            <button>
+              <a href="https://restrofinder.netlify.app/">View Project</a>
+            </button>
+            <button>
+              <a
+                href="https://github.com/Murage-Ivy/restro"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View Github
+              </a>
+            </button>
           </div>
         </div>
 
@@ -31,8 +41,19 @@ function Project() {
             the their interesting reads and also find a book to read
           </p>
           <div className="primary-actions-btn">
-            <button>View Project</button>
-            <button>View Github</button>
+            <button>
+              <a href="https://maktafri.netlify.app/">View Project</a>
+            </button>
+
+            <button>
+              <a
+                href="https://github.com/Murage-Ivy/maktafri_frontend"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View Github
+              </a>
+            </button>
           </div>
         </div>
         <div className="project-card">
@@ -45,8 +66,18 @@ function Project() {
             different religion.
           </p>
           <div className="primary-actions-btn">
-            <button>View Project</button>
-            <button>View Github</button>
+            <button>
+              <a href="https://shambashapeup.netlify.app/">View Project</a>
+            </button>
+            <button>
+              <a
+                href="https://github.com/Murage-Ivy/Shamba-ShapeUp"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View Github
+              </a>
+            </button>
           </div>
         </div>
         <div className="project-card">
@@ -58,8 +89,18 @@ function Project() {
             of handymen services
           </p>
           <div className="primary-actions-btn">
-            <button>View Project</button>
-            <button>View Github</button>
+            <button>
+              <a href="https://chapakazi-frontend.vercel.app/">View Project</a>
+            </button>
+            <button>
+              <a
+                href=" https://github.com/Murage-Ivy/chapakazi-frontend"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View Github
+              </a>
+            </button>
           </div>
         </div>
       </div>
