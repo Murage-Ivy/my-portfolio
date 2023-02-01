@@ -5,7 +5,7 @@ import "./Header.css";
 function Header() {
   return (
     <div id="home">
-      <header>
+      <header id="home">
         <InfoSection />
         <ImageSection />
       </header>

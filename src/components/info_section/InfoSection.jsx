@@ -21,10 +21,12 @@ function InfoSection() {
         building user friendly and beautiful applications on the internet
       </p>
 
-      <button className="call-action">Hire Me</button>
+      <a href="#contacts">
+        <button className="call-action">Hire Me</button>
+      </a>
       <div className="social-btns">
         <FontAwesomeIcon icon={faGithub} className="icon" />
-        <FontAwesomeIcon icon={faLinkedinIn} className="icon"  />
+        <FontAwesomeIcon icon={faLinkedinIn} className="icon" />
         <FontAwesomeIcon icon={faInstagram} className="icon" />
       </div>
     </div>

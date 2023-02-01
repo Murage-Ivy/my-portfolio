@@ -1,5 +1,7 @@
 #projects {
   background-color: var(--primary-color);
+  min-height: 100vh;
+  min-height: 100dvh;
 }
 
 #projects > h2 {
@@ -44,7 +46,7 @@
   background-color: var(--secondary-color);
 }
 
-.img{
+.img {
   position: relative;
 }
 .img > img {

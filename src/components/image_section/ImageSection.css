@@ -2,8 +2,11 @@
   width: 500px;
   height: 100%;
   display: flex;
+  border-radius: 15px;
+  border: 1px solid var(--primary-color);
   flex-direction: column;
   justify-content: space-between;
+  height: inherit;
 }
 
 .image-section > img {
