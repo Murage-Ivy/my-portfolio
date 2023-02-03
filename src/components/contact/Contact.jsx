@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
 function Contact() {
@@ -9,6 +9,23 @@ function Contact() {
     message: "",
   });
   const form = useRef();
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setResult(false);
+    }, 3000);
+
+    return () => {
+      clearInterval(interval);
+    };
+  });
+  function returnResults() {
+    return (
+      <h2 className="result">
+        Your message has been received Successfully. I will Contact you soon
+      </h2>
+    );
+  }
 
   function handleChange(event) {
     const { name, value } = event.target;
@@ -39,6 +56,7 @@ function Contact() {
       email: "",
       message: "",
     });
+    setResult(true);
   };
 
   return (
@@ -52,6 +70,7 @@ function Contact() {
           <input
             type="text"
             placeholder="Enter your name"
+            required
             value={formInfo.name}
             name="name"
             onChange={handleChange}
@@ -62,6 +81,7 @@ function Contact() {
           <input
             type="email"
             placeholder="Enter your email"
+            required
             value={formInfo.email}
             name="email"
             onChange={handleChange}
@@ -75,10 +95,13 @@ function Contact() {
             cols="100"
             value={formInfo.message}
             name="message"
+            required
             onChange={handleChange}
           />
           <button className="submit">Submit</button>
         </div>
+
+        {result ? returnResults() : null}
       </form>
     </div>
   );

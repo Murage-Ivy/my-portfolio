@@ -80,3 +80,9 @@
 .submit:hover {
   background-color: var(--tertiary-color);
 }
+
+.results {
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 10px;
+}
