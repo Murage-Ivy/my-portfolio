@@ -97,6 +97,11 @@
   width: 50%;
   cursor: pointer;
 }
+
+.social-btns > a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
 .icon {
   background-color: var(--tertiary-color);
   border-radius: 50%;

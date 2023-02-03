@@ -25,9 +25,15 @@ function InfoSection() {
         <button className="call-action">Hire Me</button>
       </a>
       <div className="social-btns">
-        <FontAwesomeIcon icon={faGithub} className="icon" />
-        <FontAwesomeIcon icon={faLinkedinIn} className="icon" />
-        <FontAwesomeIcon icon={faInstagram} className="icon" />
+        <a href="https://github.com/Murage-Ivy">
+          <FontAwesomeIcon icon={faGithub} className="icon" />
+        </a>
+        <a href="https://www.linkedin.com/in/ivy-murage/">
+          <FontAwesomeIcon icon={faLinkedinIn} className="icon" />
+        </a>
+        <a href="https://instagram.com/ivymurage?igshid=NmQ2ZmYxZjA=">
+          <FontAwesomeIcon icon={faInstagram} className="icon" />
+        </a>
       </div>
     </div>
   );

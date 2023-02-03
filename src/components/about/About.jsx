@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./About.css";
 function About() {
-  // const  progressBar = () =>{
-  //   document.documentElement.s
-  // }
+  const [progressBar, setProgressBar] = useState(0);
+  const inputRef = useRef();
+
+  useEffect(() => {
+    function isVisible() {
+      const position = window.pageYOffset;
+      setProgressBar(position);
+    }
+    window.addEventListener("scroll", isVisible);
+    console.log(progressBar);
+  }, [progressBar]);
+
   return (
-    <div id="about">
+    <div id="about" ref={inputRef}>
       <div className="image-1">
         <img src="../assets/Images/Person.svg" alt="person" />
       </div>
@@ -26,44 +35,72 @@ function About() {
             <li>
               Html
               <span className="bar">
-                <span className="html"></span>
+                <span
+                  className={
+                    progressBar > 0 && progressBar >= 406 ? "html" : null
+                  }
+                ></span>
               </span>
             </li>
             <li>
               Css
               <span className="bar">
-                <span className="css"></span>
+                <span
+                  className={
+                    progressBar > 0 && progressBar >= 406 ? "css" : null
+                  }
+                ></span>
               </span>
             </li>
             <li>
               Javascript
               <span className="bar">
-                <span className="javascript"></span>
+                <span
+                  className={
+                    progressBar > 0 && progressBar >= 406 ? "javascript" : null
+                  }
+                ></span>
               </span>
             </li>
             <li>
               React Js
               <span className="bar">
-                <span className="reactjs"></span>
+                <span
+                  className={
+                    progressBar > 0 && progressBar >= 406 ? "reactjs" : null
+                  }
+                ></span>
               </span>
             </li>
 
             <li>
               Redux
               <span className="bar">
-                <span className="redux"></span>
+                <span
+                  className={
+                    progressBar > 0 && progressBar >= 406 ? "redux" : null
+                  }
+                ></span>
               </span>
             </li>
             <li>
               Ruby On Rails
               <span className="bar">
-                <span className="ruby"></span>
+                <span
+                  className={
+                    progressBar > 0 && progressBar >= 406 ? "ruby" : null
+                  }
+                ></span>
               </span>
             </li>
             <li>
               Ux/Ui
               <span className="bar">
-                <span className="ux"></span>
+                <span
+                  className={
+                    progressBar > 0 && progressBar >= 406 ? "ux" : null
+                  }
+                ></span>
               </span>
             </li>
           </ul>

@@ -47,7 +47,6 @@
 .my-stacks > h3 {
   color: var(--secondary-color);
   font-size: 18px;
-  
 }
 
 .my-stacks > ul > li {
@@ -63,7 +62,7 @@
   border: 1px solid var(--secondary-color);
   border-radius: 10px;
   overflow: hidden;
-  transition: all cubic-bezier(0.25, 0.8, 25, 1) ;
+  transition: all cubic-bezier(0.25, 0.8, 25, 1);
 }
 
 .bar span {
@@ -80,18 +79,15 @@
 }
 
 .html {
-  width: 90%;
-  animation: html 3s infinite!important ;
- 
- 
-  
+  width: 100%;
+  animation: html 3s;
 }
 .css {
-  width: 70%;
+  width: 90%;
   animation: css 3s;
 }
 .javascript {
-  width: 75%;
+  width: 85%;
   animation: javascript 3s;
 }
 .reactjs {
@@ -99,15 +95,15 @@
   animation: reactjs 3s;
 }
 .ruby {
-  width: 70%;
+  width: 90%;
   animation: ruby 3s;
 }
 .redux {
-  width: 70%;
+  width: 80%;
   animation: ruby 3s;
 }
 .ux {
-  width: 60%;
+  width: 70%;
   animation: ux 3s linear forwards;
 }
 
