@@ -99,9 +99,9 @@ function Contact() {
             onChange={handleChange}
           />
           <button className="submit">Submit</button>
+          <br />
+          {result ? returnResults() : null}
         </div>
-
-        {result ? returnResults() : null}
       </form>
     </div>
   );

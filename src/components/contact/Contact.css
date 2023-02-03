@@ -81,7 +81,7 @@
   background-color: var(--tertiary-color);
 }
 
-.results {
+.result {
   color: var(--secondary-color);
   text-align: center;
   padding: 10px;
