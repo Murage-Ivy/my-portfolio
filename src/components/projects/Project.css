@@ -61,7 +61,6 @@
   content: "";
   position: absolute;
   z-index: 1000;
-  background-color: red;
   width: 100%;
   background: linear-gradient(
     to bottom,
@@ -89,7 +88,6 @@
   align-items: center;
   justify-content: space-between;
   padding: 10px;
-  border:1px solid red;
 }
 
 .primary-actions-btn > button {

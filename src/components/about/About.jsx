@@ -1,6 +1,9 @@
 import React from "react";
 import "./About.css";
 function About() {
+  // const  progressBar = () =>{
+  //   document.documentElement.s
+  // }
   return (
     <div id="about">
       <div className="image-1">

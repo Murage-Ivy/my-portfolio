@@ -63,7 +63,7 @@
   border: 1px solid var(--secondary-color);
   border-radius: 10px;
   overflow: hidden;
-  transition: all cubic-bezier(0.25, 0.8, 25, 1);
+  transition: all cubic-bezier(0.25, 0.8, 25, 1) ;
 }
 
 .bar span {
@@ -81,7 +81,10 @@
 
 .html {
   width: 90%;
-  animation: html 3s;
+  animation: html 3s infinite!important ;
+ 
+ 
+  
 }
 .css {
   width: 70%;
@@ -105,7 +108,7 @@
 }
 .ux {
   width: 60%;
-  animation: ux 3s;
+  animation: ux 3s linear forwards;
 }
 
 @keyframes html {
