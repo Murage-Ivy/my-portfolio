@@ -13,8 +13,12 @@ function ImageSection() {
           nesciunt consequuntur. Earum?
         </p>
         <div className="action-btns">
-          <button>View Resume</button>
-          <button>Download Resume</button>
+          <button>
+            <a href="https://drive.google.com/file/d/1G45ptHlDBFycQwuYj8CsqrSyLUXbANd9/view?usp=share_link">
+              View Resume
+            </a>
+          </button>
+        
         </div>
       </div>
     </div>
