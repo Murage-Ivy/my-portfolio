@@ -10,7 +10,6 @@ function About() {
       setProgressBar(position);
     }
     window.addEventListener("scroll", isVisible);
-    console.log(progressBar);
   }, [progressBar]);
 
   return (

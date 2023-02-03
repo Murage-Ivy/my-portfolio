@@ -1,30 +1,50 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import "./Contact.css";
+import emailjs from "@emailjs/browser";
 function Contact() {
+  const [result, setResult] = useState(false);
   const [formInfo, setFormInfo] = useState({
     name: "",
     email: "",
     message: "",
   });
+  const form = useRef();
 
   function handleChange(event) {
     const { name, value } = event.target;
     setFormInfo({ ...formInfo, [name]: value });
   }
 
-  function handleSubmit(event) {
-    event.preventDefault();
-    console.log("Submitted successfully");
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_esftb5p",
+        "template_6r20gb8",
+        form.current,
+        "TO4wW2R4H-RMCxHN3"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
     setFormInfo({
       name: "",
       email: "",
       message: "",
     });
-  }
+  };
+
   return (
     <div id="contacts">
       <h3>Send a Message</h3>
-      <form className="form" onSubmit={handleSubmit}>
+      <form className="form" onSubmit={sendEmail} ref={form}>
         <img src="../assets/Images/contact.svg" alt="contact" />
         <div>
           <label>Name</label>
