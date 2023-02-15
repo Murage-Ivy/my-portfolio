@@ -7,10 +7,15 @@ function ImageSection() {
       <img src="../assets/Images/IMG_8914.JPG" alt="myimage" />
       <div className="brief-intro">
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          culpa impedit pariatur blanditiis deserunt ea error perferendis atque
-          quos, mollitia dicta. Corrupti ipsum adipisci laborum quod labore
-          nesciunt consequuntur. Earum?
+          Hello there! My name is Ivy Muarge, and I am a full stack developer
+          specializing in Ruby on Rails and React. I have a strong background in
+          front-end development, including experience with HTML, CSS, and
+          JavaScript. I am also skilled in back-end development, having worked
+          with Ruby on Rails to create dynamic and scalable web applications. I
+          am a dedicated and hardworking team player who is always eager to
+          learn and grow in my field. When I'm not working on a project, you can
+          find me experimenting with new recipes in the kitchen. Thank you for
+          taking the time to learn a bit about me.
         </p>
         <div className="action-btns">
           <button>
@@ -18,7 +23,6 @@ function ImageSection() {
               View Resume
             </a>
           </button>
-        
         </div>
       </div>
     </div>
