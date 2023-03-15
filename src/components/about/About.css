@@ -31,7 +31,7 @@
 }
 
 .about-me > p {
-  line-height: 2;
+  line-height: 1.8;
   word-spacing: 10px;
   font-size: 15px;
   font-weight: 300;
@@ -47,6 +47,7 @@
 .my-stacks > h3 {
   color: var(--secondary-color);
   font-size: 18px;
+  text-align: center;
 }
 
 .my-stacks > ul > li {
