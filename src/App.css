@@ -21,12 +21,9 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  /* width: 100vw; */
 }
-.App {
-  /* display: grid;
-  grid-template-columns: 90% 20%; */
-}
+
 .main-container {
   display: block;
+  width: 100%;
 }

@@ -173,3 +173,17 @@
     width: 60%;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  #about {
+    display: block;
+    height: auto;
+  }
+  .image-1 {
+    display: none;
+  }
+  .about-me {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}
