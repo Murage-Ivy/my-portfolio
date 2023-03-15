@@ -6,6 +6,8 @@ header {
   align-items: center;
   width: 100%;
   margin: 0 auto;
-  height: 100vh;
+  /* height: 100vh; */
   margin-bottom: 30px;
+  border:1px solid red;
 }
+

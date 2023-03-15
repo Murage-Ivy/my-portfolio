@@ -1,12 +1,13 @@
 .image-section {
-  width: 500px;
-  height: 100vh;
+  /* margin-top: 40px; */
+  width: 400px;
+  /* height: 100vh; */
   display: flex;
   border-radius: 15px;
-  border: 1px solid var(--primary-color);
+  /* border: 1px solid var(--primary-color); */
   flex-direction: column;
   justify-content: space-between;
-  height: inherit;
+  align-items: center;
 }
 
 .image-section > img {
@@ -19,11 +20,12 @@
 .brief-intro {
   padding: 15px;
   background-color: var(--secondary-color);
+  border-radius: 0px 0px 15px 15px;
 }
 
 .brief-intro > p {
   font-weight: 300;
-  line-height: 1.5;
+  line-height: 1.2;
   color: var(--primary-color);
 }
 

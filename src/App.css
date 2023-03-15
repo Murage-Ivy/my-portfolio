@@ -19,10 +19,14 @@ body {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
   background-color: var(--secondary-color);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* width: 100vw; */
 }
 .App {
-  display: grid;
-  grid-template-columns: 90% 20%;
+  /* display: grid;
+  grid-template-columns: 90% 20%; */
 }
 .main-container {
   display: block;
