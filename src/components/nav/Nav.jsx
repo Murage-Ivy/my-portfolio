@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Logo from "../logo/Logo";
 import "./Nav.css";
 
 function Nav() {
@@ -9,6 +10,7 @@ function Nav() {
   }
   return (
     <div className="nav">
+      <Logo />
       <ul>
         <li onClick={handleClick}>
           <a href="#home" id={active ? "active" : null}>

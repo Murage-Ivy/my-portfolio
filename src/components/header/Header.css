@@ -1,13 +1,15 @@
 header {
-  display: grid;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   grid-template-columns: 1fr 1fr;
   background-color: var(--primary-color);
   color: var(--secondary-color);
   align-items: center;
+justify-items: center;
   width: 100%;
   margin: 0 auto;
-  /* height: 100vh; */
+  height: 100vh;
   margin-bottom: 30px;
-  border:1px solid red;
+  height: 90vh;
 }
-

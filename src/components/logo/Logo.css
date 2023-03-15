@@ -1,0 +1,16 @@
+.logo > h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.logo {
+  border: 1px solid red;
+  justify-self: flex-start;
+  padding: 4px;
+  margin-left: 20px;
+}
+#folio {
+  color: var(--tertiary-color);
+  font-size: 40px;
+}
