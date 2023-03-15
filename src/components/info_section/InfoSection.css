@@ -107,3 +107,25 @@
   border-radius: 50%;
   padding: 10px;
 }
+
+@media only screen and (min-width: 600px) {
+  .info-section {
+    height: fit-content;
+  }
+
+  .top-level {
+    line-height: 0;
+  }
+
+  .top-level > h1 {
+    font-size: 4em;
+    position: absolute;
+    font-weight: 500;
+    letter-spacing: 8px;
+    z-index: 1;
+    top: 15%;
+    overflow: hidden;
+    position: relative;
+    line-height: 1;
+  }
+}

@@ -174,10 +174,11 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
   #about {
     display: block;
     height: auto;
+    margin: 0 auto;
   }
   .image-1 {
     display: none;
@@ -185,5 +186,13 @@
   .about-me {
     margin: 0 auto;
     margin-top: 20px;
+    text-align: center;
+
+  }
+
+  .my-stacks{
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
   }
 }

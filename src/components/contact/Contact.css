@@ -88,9 +88,13 @@
   font-size: 16px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
   .form {
     width: fit-content;
+  }
+
+  #contacts {
+    height: fit-content;
   }
 
   .form > img {
