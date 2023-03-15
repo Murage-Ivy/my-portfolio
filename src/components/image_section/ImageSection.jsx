@@ -15,7 +15,7 @@ function ImageSection() {
         </p>
         <div className="action-btns">
           <button>
-            <a href="https://drive.google.com/file/d/1G45ptHlDBFycQwuYj8CsqrSyLUXbANd9/view?usp=share_link">
+            <a href="https://drive.google.com/file/d/1XeQi1dcg0Ltirfmtowp5pOZ5ZcZea7IO/view?usp=sharing">
               View Resume
             </a>
           </button>
