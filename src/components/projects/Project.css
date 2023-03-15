@@ -115,9 +115,9 @@
 i {
   font-size: 12px;
 }
-@media only screen and (max-width: 600px) {
-  .projects {
-    grid-template-columns: repeat(1, 1fr);
+@media only screen and (min-width: 600px) {
+  #projects {
+    min-height: fit-content;
   }
 
   #projects > h2::after {
@@ -129,6 +129,4 @@ i {
     background-color: var(--tertiary-color);
     height: 5px;
   }
-
- 
 }
