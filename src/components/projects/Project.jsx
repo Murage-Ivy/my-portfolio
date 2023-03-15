@@ -2,7 +2,7 @@ import React from "react";
 import "./Project.css";
 function Project() {
 
-  
+
   return (
     <div id="projects">
       <h2>Projects</h2>
@@ -32,6 +32,8 @@ function Project() {
               </a>
             </button>
           </div>
+          <span className="tech-stack">Tech stack: <i>React Js, Ruby On Rails, Figma Design</i></span>
+
         </div>
 
         <div className="project-card">
@@ -42,6 +44,7 @@ function Project() {
             An application that enables readers who enjoy african books to share
             the their interesting reads and also find a book to read
           </p>
+
           <div className="primary-actions-btn">
             <button>
               <a href="https://maktafri.netlify.app/">View Project</a>
@@ -56,7 +59,10 @@ function Project() {
                 View Github
               </a>
             </button>
+
           </div>
+          <span className="tech-stack">Tech stack: <i>React Js, Sinatra, Figma Design</i></span>
+
         </div>
         <div className="project-card">
           <div className="img">
@@ -81,6 +87,7 @@ function Project() {
               </a>
             </button>
           </div>
+          <span className="tech-stack">Tech stack: <i>React Js,Figma Design, Heroku</i></span>
         </div>
         <div className="project-card">
           <div className="img">
@@ -104,6 +111,7 @@ function Project() {
               </a>
             </button>
           </div>
+          <span className="tech-stack">Tech stack: <i>React Js, Ruby On Rails,Figma Design</i></span>
         </div>
       </div>
     </div>
